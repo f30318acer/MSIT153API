@@ -4,7 +4,7 @@
 
 namespace MSIT153API.Controllers
 {
-    //[Produces("application/xml")]
+    [Produces("application/xml")]
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
